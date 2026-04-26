@@ -1,0 +1,15 @@
+docker rmi $(docker images -a -q)
+docker images 
+docker build -t myapp .
+docker run -p 5000:5000 myapp
+
+
+
+#----Github
+
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+git remote add origin <your-repo-url>
+git push -u origin main
