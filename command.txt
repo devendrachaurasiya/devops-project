@@ -13,3 +13,33 @@ git commit -m "initial commit"
 git branch -M main
 git remote add origin git@github.com:devendrachaurasiya/devops-project.git
 git push -u origin main
+
+
+aws instance command
+
+ 1  sudo apt update
+    2  sudo apt install docker.io -y
+    3  sudo systemctl start docker
+    4  sudo usermod -aG docker ubuntu
+    5  exit
+    6  sudo apt install git -y
+    7  git clone git@github.com:devendrachaurasiya/devops-project.git
+    8  git clone https://github.com/devendrachaurasiya/devops-project.git
+    9  cd devops-project
+   10  docker build -t myapp .
+   11  docker run -d -p 5000:5000 myapp
+
+
+   ===YUM commands
+   yum remove Java
+   yum install java
+   how we save envronment variable in linux {.bash_profile}
+   Wget we use to download maven fro HTTP or HTTPS server 
+   {Tis will download tar file so unzip tar xzvf tar file name}
+   sudo systemctl enable jenkins
+   sudo systemctl start jenkins
+   copy file from server into docker container 
+   {sudo docker cp filename container_name:/usr/local/tomkat/webapps/filename}
+   mentor@rahulshettyacademy.com
+   Build-->Test-->Release-->Plan-->Monitor
+   SSH(secure shell session)
